@@ -1,0 +1,14 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+h1, nav, p {
+    text-align: center;
+    padding: 10px;
+}
+
+a {
+    background-color: grey;
+    padding: 20px;
+}
