@@ -1,0 +1,39 @@
+/* The body of the page. */
+body {
+    margin: 0;
+}
+
+
+/* The top part of the page. */
+nav {
+    background-color: steelblue;
+    padding: 2px;
+}
+
+a {
+    color: white;
+    padding: 25px;
+}
+
+
+/* The middle part of the page. */
+h1 {
+    margin: 50px 0;
+}
+
+img {
+    border: 4px solid steelblue;
+}
+
+main p {
+    margin: 50px auto;
+    padding: 10px;
+}
+
+
+/* The bottom part of the page. */
+footer {
+    background-color: steelblue;
+    color: white;
+    padding: 25px;
+}

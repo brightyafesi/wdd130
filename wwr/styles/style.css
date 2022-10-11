@@ -1,129 +1,195 @@
-/* This id selector targets content of the whole of the body element. */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Roboto&display=swap');
+
+/* THE BODY OF THE WHOLE PAGE! */
+
+/* The element selectors. */
+body {
+    background-color: white;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* The id selectors. */
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
 
-/* This element selector targets the child a link elements in the parent nav element. */
-nav a {
-    text-align: center;
-    color: white;
-    text-decoration: none;
-}
 
-/* This id selector targets the child heading elements in the section element of the parent hero block. */
-#hero-msg h1, #hero-msg h4 {
-    text-align: center;
-}
 
-/* This class selector targets the child a link element in the section element of the parent hero block. */
-.button-box {
-    text-align: center;
-}
 
-/* This element selector targets the section elements in the parent main element */
-main section {
-    text-align: center;
-}
+/* THE TOP PART OF THE PAGE! */
 
-/* This id selector targets the child empty class in the parent main element. */
-#background {
-    height: 725px;
-    background-color: #00b4d8;
-}
-
-/* This element selector targets the whole body element. */
-body {
-    background-color: white;
-}
-
-/* This element selector targets the whole header element. */
+/* The element selectors. */
 header {
     background-color: #03045e;
 }
 
-/* This pseudo class targets the child a link elements of the parent nav element. */
+nav a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 35px;
+}
+
+
+/* The class selectors. */
+.logo {
+    width: 80px;
+}
+
+
+/* The id selectors. */
+#logo_link {
+    padding-top: 5px;
+}
+
+
+/* The pseudo classes. */
 nav a:hover {
     background-color: #00b4d8;
     color: white;
 }
 
-/* These class selectors target the child a link (button) elements of the sections of the parent hero and main blocks. */
+
+
+
+/* BETWEEN THE TOP AND MIDDLE PART OF THE PAGE! */
+
+/* The element selectors. */
+h4 {
+    color: black;
+}
+
+
+/* The class selectors. */
+.home-title {
+    color: black;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
 .book, .join {
     background-color: #03045e;
     color: white;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
-/* These pseudo classes target the child a link (button) elements of the sections of the parent hero and main blocks. */
+.button-box {
+    text-align: center;
+}
+
+
+/* The id selectors. */
+#hero-img {
+    width: 100%;
+}
+
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+
+
+/* The Pseudo classes. */
 .book:hover, .join:hover {
     background-color: #00b4d8;
     color: white;
 }
 
-/* This class selector targets the last child section (message) element of the parent main element. */
-.msg {
-    background-color: #396E94;
+
+
+
+/* THE MIDDLE PART OF THE PAGE! */
+
+/* The element selectors. */
+main section {
+    text-align: center;
 }
 
-/* This element selector targets the whole footer element. */
+main section img {
+    box-sizing: border-box;
+}
+
+h2 {
+    margin: 0;
+}
+
+
+/* The class selectors. */
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #03045e;
+}
+
+.msg {
+    background-color: #396E94;
+    line-height: 1.5em;
+    padding: 35px;
+}
+
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+
+.msg h2 {
+    color: white;
+    font-family: Roboto, Helvetica, sans-serif;
+}
+
+.msg p {
+    color: white;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    padding-bottom: 15px;
+}
+
+
+/* The id selectors. */
+#background {
+    height: 725px;
+    background-color: #00b4d8;
+}
+
+
+
+
+/* THE BOTTOM PART OF THE PAGE! */
+
+/* The element selectors. */
 footer {
     background-color: #03045e;
     color: white;
+    margin-top: 200px;
 }
 
-/* This element selector targets the child p element of the parent footer element. */
 footer p {
     font-size: 1.2em;
 }
 
-/* This pseudo class targets the child p (a link) elements of the parent footer element. */
-footer p a:hover {
-    text-decoration: underline;
-}
-
-/* This element selector targets the child a link elements of the parent footer element. */
 footer a {
     color: white;
     text-decoration: none;
 }
 
-/* This pseudo class targets the  */
+footer .social img {
+    padding-top: 15px;
+}
+
+
+/* The Pseudo classes. */
+footer p a:hover {
+    text-decoration: underline;
+}
+
 footer a:hover {
     color: grey;
-}
-
-/* This class selector targets the child h1 element in the section of the parent hero block. */
-.home-title {
-    color: black;
-}
-
-/* This element selector targets the child (h4) element in the section of the parent hero block. */
-h4 {
-    color: black;
-}
-
-/* This class selector targets the child (h2) element in the section of the parent main element. */
-.msg h2 {
-    color: white;
-}
-
-/* This class selector targets the child (p) element in the section of the parent main element. */
-.msg p {
-    color: white;
-}
-
-/* This class selector targets the child a (logo) element of the parent nav element. */
-.logo {
-    width: 80px;
-}
-
-/* This class selector targets the child (icon) elements in the sections of the parent main element. */
-.icon {
-    width: 80px;
-}
-
-/* This class selector targets the child image element of the parent hero block. */
-#hero-img {
-    width: 100%;
 }

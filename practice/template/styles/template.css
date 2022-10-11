@@ -1,0 +1,31 @@
+/* The body of the whole page. */
+body {
+    box-sizing: content-box;
+}
+
+
+/* The top part of the page. */
+header {
+    box-sizing: content-box;
+}
+
+
+/* Between the top and middle part of the page. */
+#hero {
+    box-sizing: content-box;
+}
+
+
+/* The middle part of the page. */
+main {
+    box-sizing: content-box;
+}
+
+
+/* Between the middle and bottom part of the page. */
+
+
+/* The bottom part of the page. */
+footer {
+    box-sizing: content-box;
+}
