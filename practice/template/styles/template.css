@@ -1,31 +1,160 @@
-/* The body of the whole page. */
+/* BODY OF THE WHOLE PAGE! */
+
+/* Element Selectors */
 body {
-    box-sizing: content-box;
+    border: 1px solid black;
+    padding: 5px;
 }
 
 
-/* The top part of the page. */
+/* Class Selectors */
+
+
+/* Id Selectors */
+
+
+/* Pseudo Selectors */
+
+
+
+
+/* TOP PART OF THE PAGE! */
+
+/* Element Selectors */
 header {
-    box-sizing: content-box;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+
+a img {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+
+nav {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+
+nav a {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
 }
 
 
-/* Between the top and middle part of the page. */
+/* Class Selectors */
+
+
+/* Id Selectors */
+
+
+/* Pseudo Selectors */
+
+
+
+
+/* BETWEEN THE TOP AND MIDDLE PART OF THE PAGE! */
+
+/* Element Selectors */
+img {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+
+
+/* Class Selectors */
+
+
+/* Id Selectors */
 #hero {
-    box-sizing: content-box;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
 }
 
 
-/* The middle part of the page. */
+/* Pseudo Selectors */
+
+
+
+
+/* MIDDLE PART OF THE PAGE! */
+
+/* Element Selectors */
 main {
-    box-sizing: content-box;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
 }
 
 
-/* Between the middle and bottom part of the page. */
+/* Class Selectors */
 
 
-/* The bottom part of the page. */
+/* Id Selectors */
+
+
+/* Pseudo Selectors */
+
+
+
+
+/* BETWEEN THE MIDDLE AND BOTTOM PART OF THE PAGE! */
+
+/* Element Selectors */
+
+
+/* Class Selectors */
+
+
+/* Id Selectors */
+#support {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+
+
+/* Pseudo Selectors */
+
+
+
+
+/* BOTTOM PART OF THE PAGE! */
+
+/* Element Selectors */
 footer {
-    box-sizing: content-box;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
 }
+
+p {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+
+p a {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+
+/* Class Selectors */
+.social {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+
+
+/* Id Selectors */
+
+
+/* Pseudo Selectors */
