@@ -1,16 +1,25 @@
-/* body {
-    background-color: black;
-    color: white;
-} */
-
-
+/* Element Selectors */
 h1, nav, p {
     text-align: center;
     padding: 10px;
 }
 
+nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 a {
     background-color: grey;
-    padding: 20px;
+    color: lightblue;
     text-decoration: none;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* Pseudo Selectors */
+a:hover {
+    background-color: lightblue;
+    color: gray;
 }
