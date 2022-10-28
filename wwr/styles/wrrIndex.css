@@ -4,17 +4,18 @@ h1, nav, p {
     padding: 10px;
 }
 
-nav {
+
+/*nav {
     display: flex;
-    flex-wrap: wrap;
-}
+    flex-wrap: space-around;
+}*/
 
 a {
     background-color: grey;
     color: lightblue;
     text-decoration: none;
     text-align: center;
-    padding: 20px;
+    padding:25px;
 }
 
 
