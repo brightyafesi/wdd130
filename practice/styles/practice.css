@@ -1,0 +1,14 @@
+/* Element Selectors */
+h1, section, p {
+    text-align: center;
+    padding: 25px;
+}
+
+section p a {
+    display: block;
+    background-color: gray;
+    text-decoration: none;
+    color: blue;
+    padding: 25px;
+    width: 50%;
+}
