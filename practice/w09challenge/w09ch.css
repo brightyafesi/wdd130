@@ -1,0 +1,23 @@
+/* Element Selectors */
+body {                 
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 2em;
+} 
+img {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+h3 {
+    color: navy;
+}
+section {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: navy;
+    color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
