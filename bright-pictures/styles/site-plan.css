@@ -5,10 +5,10 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #ffff00   ;
-  --secondary-color: #ff0000 ;
-  --accent1-color: #000000;
-  --accent2-color: #0000ff;
+  --primary-color: #ffff00   ; /* rgb(255,255,0) */
+  --secondary-color: #ff0000 ; /* rgb(255,0,0) */
+  --accent1-color: #000000; /* rgb(0,0,0) */ 
+  --accent2-color: #0000ff; /* rgb(0,0,255) */
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Libre Baskerville";
