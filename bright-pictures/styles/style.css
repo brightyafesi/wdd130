@@ -54,7 +54,7 @@ nav a {
 
 /* Id Selectors 
 #hm-li {
-    justify-self: stop;
+    justify-self: end;
     text-align: right;
 }
 
