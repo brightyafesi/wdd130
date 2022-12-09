@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial;}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+/* Style the close button */
+.topright {
+  float: right;
+  cursor: pointer;
+  font-size: 28px;
+}
+
+.topright:hover {color: red;}
+</style>
+</head>
+<body>
+
+<h1 style='text-align: center;'>TOP FIVE MAJOR PHYSICAL FEATURES</h1>
+
+<!-- Oceans -->
+<h2>OCEANS</h2>
+<p>These are the five largest oceans known in the world.</p>
+
+<div class="tab">
+  <button class="tablinks" onclick="openPhy(event, 'Pacific')" id="defaultOpen">Pacific</button> 
+  <button class="tablinks" onclick="openPhy(event, 'Atlantic')">Atlantic</button>
+  <button class="tablinks" onclick="openPhy(event, 'Indian')">Indian</button>
+  <button class="tablinks" onclick="openPhy(event, 'Southern')">Southern</button>
+  <button class="tablinks" onclick="openPhy(event, 'Arctic')">Arctic</button>
+</div>
+
+<div id="Pacific" class="tabcontent">
+  <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+  <h3>Pacific Ocean</h3>
+  <p>The Pacific Ocean is the largest ocean known, with an area of approximately 155,557,000 km<sup>2</sup>.</p>
+</div>
+
+<div id="Atlantic" class="tabcontent">
+  <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+  <h3>Atlantic Ocean</h3>
+  <p>The Atlantic Ocean is the second largest ocean known, with an area of approximately 76,762,000 km<sup>2</sup>.</p> 
+</div>
+
+<div id="Indian" class="tabcontent">
+  <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+  <h3>Indian Ocean</h3>
+  <p>The Indian Ocean is the third largest ocean known, with an area of approximately 68,556,000 km<sup>2</sup>.</p>
+</div>
+
+<div id="Southern" class="tabcontent">
+  <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+  <h3>Southern Ocean</h3>
+  <p>The Southern Ocean is the fourth largest ocean known, with an area of approximately 20,327 km<sup>2</sup>.</p>
+</div>
+
+<div id="Arctic" class="tabcontent">
+  <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+  <h3>Arctic Ocean</h3>
+  <p>The Arctic Ocean is the fifth largest ocean known, with an area of approximately 14,056,000 km<sup>2</sup>.</p>
+</div>
+
+<!-- Lakes -->
+<h2 style="margin-top: 100px;">LAKES</h2>
+<p>These are the five largest lakes known in the world.</p>
+
+<div class="tab">
+  <button class="tablinks" onclick="openPhy(event, 'Caspian')" id="defaultOpen">Caspian</button>
+  <button class="tablinks" onclick="openPhy(event, 'Superior')">Superior</button>
+  <button class="tablinks" onclick="openPhy(event, 'Victoria')">Victoria</button>
+  <button class="tablinks" onclick="openPhy(event, 'Huron')">Huron</button>
+  <button class="tablinks" onclick="openPhy(event, 'Michigan')">Michigan</button>
+</div>
+
+<div id="Caspian" class="tabcontent">
+  <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+  <h3>Caspian sea</h3>
+  <p>The Caspian sea is the the largest lake known, with an area of approximately 371,000 km<sup>2</sup></p>
+</div>
+
+<div id="Superior" class="tabcontent">
+  <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+  <h3>Lake Victoria</h3>
+  <p>Lake Victoria is the second largest lake known, with an area of approximately 82,100 km<sup>2</sup>.</p>
+</div>
+
+<div id="Victoria" class="tabcontent">
+  <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+  <h3>Lake Victoria</h3>
+  <p>Lake Victoria is the third largest lake known, with an area of approximately 68,800 km<sup>2</sup>.</p> 
+</div>
+
+<div id="Huron" class="tabcontent">
+  <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+  <h3>Lake Huron</h3>
+  <p>Lake Huron is the fourth largest lake known, with an area of approximately 59,600 km<sup>2</sup></p>
+</div>
+
+<div id="Michigan" class="tabcontent">
+  <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+  <h3>Lake Michigan</h3>
+  <p>Lake Michigan is the fifth largest lake known, with an area of approximately 57,800 km<sup>2</sup></p>
+</div>
+
+<!-- Rivers -->
+<h2 style="margin-top: 100px;">RIVERS</h2>
+<p>These are the five longest rivers known in the world:</p>
+
+<div class="tab">
+  <button class="tablinks" onclick="openPhy(event, 'Nile')" id="defaultOpen">Nile</button> 
+  <button class="tablinks" onclick="openPhy(event, 'Amazon')">Amazon</button>
+  <button class="tablinks" onclick="openPhy(event, 'Chang')">Chang jiang</button>
+  <button class="tablinks" onclick="openPhy(event, 'Mississipi')">Mississipi</button>
+  <button class="tablinks" onclick="openPhy(event, 'Yenisey')">Yenisey-Angara</button>
+</div>
+
+<div id="Nile" class="tabcontent">
+  <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+  <h3>River Nile</h3>
+  <p>The Nile River is the longest river known, with a length of approximately 6,853 km<sup>2</sup. <br>
+  It flows across seven countries down from the Central region of Africa and up to Africa's northern region into the Mediterranean sea. <br>
+  It flows from Burundi, Rwanda, Tanzania, Uganda, South Sudan, Sudan and Egypt.</p>
+</div>
+
+<div id="Amazon" class="tabcontent">
+  <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+  <h3>River Amazon</h3>
+  <p>The Amazon river is the second longest river known, with a length of approximately 6,437 km<sup>2</sup>.</p> 
+</div>
+
+<div id="Chang" class="tabcontent">
+  <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+  <h3>River Chang jiang</h3>
+  <p>The Chang jiang or Yangtze river is the third longest river known, with a length of approximately 6,380 km<sup>2</sup></p>
+</div>
+
+<div id="Mississipi" class="tabcontent">
+  <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+  <h3>River Mississipi</h3>
+  <p>The Mississipi River is the fourth longest river known, with a length of approximately 5,971 km<sup>2</sup>.</p>
+</div>
+
+<div id="Yenisey" class="tabcontent">
+  <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+  <h3>River Yenisey-Angara</h3>
+  <p>The Yenisey-Angara river is the fifth longest river known, with a length of approximately 5,536 km<sup>2</sup></p>
+</div>
+
+<!-- Forests -->
+<h2 style="margin-top: 100px;">FORESTS</h2>
+<p>These are the five largest forests known in the world.</p>
+
+<div class="tab">
+  <button class="tablinks" onclick="openPhy(event, 'AmazonF')" id="defaultOpen">Amazon</button>
+</div>
+
+<div id="AmazonF" class="tabcontent">
+  <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+  <h3>Amazon Forest</h3>
+  <p>The Amazon forest is the largest forest known, with an area of approximately 6,700,000 km<sup>2</sup></p>
+</div>
+
+<script>
+function openPhy(evt, phyName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(phyName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+document.getElementById("defaultOpen").click();
+</script>
+   
+</body>
+</html> 
