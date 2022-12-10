@@ -412,6 +412,7 @@ footer > img {
     border-radius: 15px;
     width: 100%;
     height: 100%;
+    margin: 2rem;
 }
 
 #cont-ins-intro h2, #cont-mach-intro h2 {
@@ -455,6 +456,13 @@ footer > img {
     margin-left: 15rem;
 }
 
+#cont-log-ins p, #cont-log-mach p {
+    text-indent: 65%;
+}
+
+#cont-log-poln p, #cont-log-ai p {
+    text-indent: 10%;
+}
 
 /* Class Selectors */
 .cont-sec {
@@ -468,12 +476,14 @@ footer > img {
 .cont-log {
     grid-column: 1/3;
     grid-row: 3/4;
+    line-height: 2rem;
 }
 
 
 /* Id Selectors */
 #cont-poln-img, #cont-ai-img {
     grid-column: 2/3;
+    margin: 2rem;
 }
 
 #cont-poln-intro, #cont-ai-intro {
