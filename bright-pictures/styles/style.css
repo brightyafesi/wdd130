@@ -662,11 +662,27 @@ footer > img {
     grid-template-columns: repeat(16, 1fr);
     grid-template-rows: repeat(8, 1fr);
     margin: 5rem;
-    background-color: rgba(0, 0, 0, 0.6);
+    /*background-color: rgba(0, 0, 0, 0.6);*/
 }
 
 
 /* Id Selector */
+#ins-pro-sec {
+    background: linear-gradient(to right,rgba(0, 0, 0, 0.6), #0000ff, rgba(0, 0, 0, 0.6));
+}
+
+#poln-pro-sec {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.6), #00ff00, rgba(0, 0, 0, 0.6));
+}
+
+#mach-pro-sec {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.6), #0000ff, rgba(0, 0, 0, 0.6));
+}
+
+#ai-pro-sec {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.6), #0000ff, rgba(0, 0, 0, 0.6)); /*rgba(0, 0, 255, 1),*/
+}
+
 #ins-pro-img, #mach-pro-img {
     grid-column: 1/13;
     grid-row: 1/9;
@@ -679,8 +695,8 @@ footer > img {
     border-radius: 15px 15px 5px 5px;
     text-align: center;
     font-size: 1.3rem;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #ffffff;
+    /*background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;*/
 }
 
 #ins-pro-bar, #mach-pro-bar {
@@ -731,4 +747,22 @@ footer > img {
     padding: 0px 1rem;
     background-color: rgba(0, 0, 0, 0.5);
     color: #ffffff;
+}
+
+#ins-pro-head, #ins-pro-body {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+}
+
+#poln-pro-head, #poln-pro-body {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#mach-pro-head, #mach-pro-body {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+}
+
+#ai-pro-head, #ai-pro-body {
+    background-color: rgba(0, 0, 0, 0.8);
 }
